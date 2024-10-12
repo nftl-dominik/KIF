@@ -136,6 +136,9 @@
         case UIDatePickerModeCountDownTimer:
             printf(" UIDatePickerModeCountDownTimer");
             break;
+        case UIDatePickerModeYearAndMonth:
+            printf(" UIDatePickerModeYearAndMonthTimer");
+            break;
     }
     printf(")");
     printf(" (minute interval: %s)", @(datePicker.minuteInterval).stringValue.UTF8String);
